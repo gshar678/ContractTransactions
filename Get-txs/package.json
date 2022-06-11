@@ -1,0 +1,24 @@
+{
+  "name": "get-transactions",
+  "version": "1.0.0",
+  "description": "fetch all transactions from an ethereum contract",
+  "main": "getTransactions.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node getTransactions.js"
+  },
+  "author": "gshar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.3.6",
+    "node-cron": "^3.0.1",
+    "web3": "^1.7.3"
+  }
+}

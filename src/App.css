@@ -1,0 +1,31 @@
+.App {
+
+  height: 100%;
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  color: gainsboro;
+  padding: 10px
+
+}
+
+.List {
+  margin: 10px;
+  width: 66%;
+  height: 2.4rem;
+  display: flex;
+  border: 2px blue solid;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: ghostwhite;
+  font-weight: 300;
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: yellow;
+}
